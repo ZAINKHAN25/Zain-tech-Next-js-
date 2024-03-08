@@ -1,0 +1,58 @@
+.MostPopularCoursesDiv {
+    padding: 10px 40px;
+    width: 100vw;
+    background-color: rgb(231 228 247);
+}
+
+.UpwardLine {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.UpwardLine span {
+    color: hsl(237, 84%, 32%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fatherDivOfCourses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.singleDivOfCourse {
+    margin: 10px;
+    width: 600px;
+    background-color: white;
+    padding: 10px 30px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 30%);
+    border-radius: 15px;
+}
+
+.txtAreaOfSingleDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 15px;
+    justify-content: space-around;
+}
+
+.txtAreaOfSingleDiv h5{
+    font-size: 20px;
+    color: hsl(236.55deg 82.86% 20.59%);
+}
+
+.txtAreaOfSingleDiv p{
+    font-size: 15px;
+    color: grey;
+}

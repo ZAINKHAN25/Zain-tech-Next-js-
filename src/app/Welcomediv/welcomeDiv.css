@@ -1,4 +1,4 @@
-.welcomeDiv{
+.welcomeDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,39 +6,40 @@
     padding: 50px 80px;
 }
 
-.headingOfWelcome{
+.headingOfWelcome {
     font-size: 40px;
     font-weight: bold;
     color: hsl(236.55deg 82.86% 20.59%);
     line-height: 1.6;
 }
 
-.headingOfWelcome span{
+.headingOfWelcome span {
     background-color: #523bff;
     padding: 5px 20px;
     border-radius: 5px;
     color: white;
 }
 
-.paraOfWelcomeDiv{
+.paraOfWelcomeDiv {
     margin: 30px auto;
     font-size: 14px;
     color: gray;
 }
 
-.getStartedBtn{
-    background-color: #523bff;
-    padding: 5px 30px;
-    border-radius: 8px;
-    color: white;
-    border: 3px solid #523bff;
-    font-weight: 700;
-    font-size: 18px;
+.getStartedBtn {
+    margin: 0 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
+    background-color: #523bff;
+    color: white;
+    border: 2px solid #523bff;
     transition: all .5s;
 }
 
-.getStartedBtn:hover{
+.getStartedBtn:hover {
     background-color: transparent;
     color: #523bff;
 }
