@@ -1,0 +1,66 @@
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 10%);
+}
+
+.pagesLi {
+    display: flex;
+}
+
+.pagesLi li {
+    list-style: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgba(65, 65, 65, 80%);
+    transition: all .5s;
+}
+
+.pagesLi li:hover {
+    color: #523bff;
+}
+
+.headingOfNavbar {
+    font-size: 32px;
+    color: #523bff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signupOrLoginDiv button {
+    margin: 0 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signInBtn {
+    border: 2px solid #523bff;
+    background-color: transparent;
+    transition: all .5s;
+    color: #523bff;
+}
+
+.signInBtn:hover {
+    background-color: #523bff;
+    color: white;
+}
+
+.signUpBtn {
+    background-color: #523bff;
+    color: white;
+    border: 2px solid #523bff;
+    transition: all .5s;
+}
+
+.signUpBtn:hover {
+    background-color: transparent;
+    color: #523bff;
+}
