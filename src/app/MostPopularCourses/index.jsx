@@ -34,11 +34,12 @@ export default function MostPopularCourses() {
                     courses.map((x, i) => {
                         return (
                             <div className="singleDivOfCourse" key={i}>
-                                <Image src={x?.courseImg} width={230} height={250} style={{borderRadius: "10px", objectFit: "cover"}} />
+                                <Image src={x?.courseImg} width={300} height={250} style={{borderRadius: "10px", objectFit: "contain"}} />
                                 <div className="txtAreaOfSingleDiv">
                                     <h5>{x.courseTitle}</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fugiat dignissimos nobis nemo incidunt deserunt, tempora nulla sed corrupti quae explicabo animi laboriosam numquam sapiente eaque ea similique laudantium? Doloribus.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fugiat dignissimos nobis nemo incidunt deserunt, tempora nulla sed corrupti quae.</p>
                                     <WebsiteBtn cntnt={"Enroll Now"} />
+                                    
                                 </div>
                             </div>
                         )
